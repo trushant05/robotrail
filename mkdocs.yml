@@ -1,10 +1,11 @@
-site_name: My Docs Template
+site_name: RoboTrail
 theme:
     name: material
     features:
         - navigation.tabs
         - navigation.sections
-        - toc.integrate
+        - navigation.expand
+        - navigation.path
         - navigation.top
         - search.suggest
         - search.highlight
@@ -12,19 +13,27 @@ theme:
         - content.code.annotation
         - content.code.copy
     language: en
+    font:
+        test: Roboto
+        code: Roboto Mono
     palette:
         - scheme: default
-          toggle:
-            icon: material/toggle-switch-off-outline
-            name: Switch to dark mode
-          primary: teal
+          primary: blue
           accent: purple
-        - scheme: slate
-          toggle:
-            icon: material/toggle-switch
-            name: Switch to light mode
-          primary: teal
-          accent: lime
+
+extra_css:
+    - 'extra.css'
+    - 'markmap-styles.css'
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/markmap-lib/dist/browser/markmap-lib.min.js
+  - https://cdn.jsdelivr.net/npm/markmap-view/dist/browser/markmap-view.min.js
+  - 'markmap-init.js'
+
+plugins:
+    - search
+    - markmap
+    - mermaid2
 
 extra:
    social:

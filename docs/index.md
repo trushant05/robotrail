@@ -1,27 +1,11 @@
-# Welcome to MkDocs Template
+# Welcome to RoboTrail
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to Robotrail, your pathway to customized robotics learning. At Robotrail, we specialize in designing and developing personalized robotics roadmaps that cater to your unique experience and future aspirations. Whether you're a hobbyist, a professional, or an organization, our tailored approach ensures that your robotics journey aligns perfectly with your past expertise and future goals.
 
-## Commands
+<div style="display: flex; justify-content: center; padding: 0;">
+    <img src="assets/logo.png" alt="Description" style="width: 35%; height: 35%;">
+</div>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Join us on this innovative journey and let's build the future of robotics together!
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## Icons and Emojs
-
-:smile:
-
-:fontawesome-regular-face-laugh-wink:
-
-:fontawesome-brands-twitter:{ .twitter }
-
-:octicons-heart-fill-24:{ .heart }
