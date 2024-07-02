@@ -1,0 +1,6 @@
+/* Justify text in Markdown content */
+.md-typeset p, .md-typeset li {
+  text-align: justify;
+}
+
+

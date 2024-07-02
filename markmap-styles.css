@@ -1,0 +1,32 @@
+/* Modern UI styles for beautifying Markmap */
+
+.markmap-node {
+  fill: #0000ff; /* Node background color */
+  stroke: #e5e7eb; /* Node border color */
+  stroke-width: 2px;
+  transition: stroke 0.3s ease-in-out;
+  transform-origin: center center;
+}
+
+.markmap-node text {
+  fill: #111827; /* Text color */
+  font-family: 'Helvetica, Arial, sans-serif';
+  font-size: 14px;
+}
+
+.markmap-link {
+  stroke: #9ca3af; /* Link color */
+  stroke-width: 2px;
+  transition: stroke 0.3s ease-in-out;
+}
+
+.markmap-foreign {
+  background-color: #f3f4f6; /* Background color for foreign objects */
+  border-radius: 5px;
+}
+
+.markmap-g {
+  font-family: 'Helvetica, Arial, sans-serif';
+  font-size: 14px;
+}
+
