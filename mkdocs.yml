@@ -23,17 +23,9 @@ theme:
 
 extra_css:
     - 'extra.css'
-    - 'markmap-styles.css'
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/markmap-lib/dist/browser/markmap-lib.min.js
-  - https://cdn.jsdelivr.net/npm/markmap-view/dist/browser/markmap-view.min.js
-  - 'markmap-init.js'
 
 plugins:
     - search
-    - markmap
-    - mermaid2
 
 extra:
    social:
