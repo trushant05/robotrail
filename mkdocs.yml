@@ -28,6 +28,7 @@ extra_css:
     - 'extra.css'
 
 extra_javascript:
+    - 'netlify-auth.js'
     - 'https://identity.netlify.com/v1/netlify-identity-widget.js'
 
 plugins:
