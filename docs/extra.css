@@ -3,4 +3,19 @@
   text-align: justify;
 }
 
+.md-header__button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.md-button--primary {
+    padding: 6px 12px;
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
 

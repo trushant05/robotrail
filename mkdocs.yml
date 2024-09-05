@@ -1,6 +1,7 @@
 site_name: RoboTrail
 theme:
     name: material
+    custom_dirs: 'docs/overrides'
     features:
         - navigation.tabs
         - navigation.sections
