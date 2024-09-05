@@ -21,6 +21,9 @@ theme:
           primary: blue
           accent: purple
 
+markdown_extensions:
+    - attr_list
+
 extra_css:
     - 'extra.css'
 
