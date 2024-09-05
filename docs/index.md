@@ -8,4 +8,4 @@ Welcome to Robotrail, your pathway to customized robotics learning. At Robotrail
 
 Join us on this innovative journey and let's build the future of robotics together!
 
-
+<button id="login-button">Sign in</button>
